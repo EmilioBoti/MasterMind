@@ -52,7 +52,7 @@ function checkValues(){
   let TakeValue = values.value
   let usersValues = TakeValue.split("")
  
-  if(usersValues.length <= 5){
+  if(usersValues.length === 5){
     let boxes = container.children//navigate in the DOM
     for(let i = 0; i < usersValues.length; i++){
       let elem = Number(usersValues[i])
@@ -61,7 +61,7 @@ function checkValues(){
           boxes[i].innerHTML = elem
         }
       }else{
-         alert(`You can put numbers less or greater than ${size}`) 
+         alert(`You cannot put numbers less or greater than ${size}`) 
          i = 5
       }
     }

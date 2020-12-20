@@ -10,8 +10,6 @@ let values = document.getElementById("number")
   for(let i =0; i < 5; i++){
     randomNum.push(Math.floor((Math.random() * size) +1))
   }
-  console.log(randomNum)
-
   //show all numbers
 const show = document.getElementById("show").addEventListener("click", ()=>{alert(randomNum)})
 

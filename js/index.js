@@ -11,7 +11,7 @@ let values = document.getElementById("number")
     randomNum.push(Math.floor((Math.random() * size) +1))
   }
   //show all numbers
-const show = document.getElementById("show").addEventListener("click", ()=>{alert(randomNum)})
+//const show = document.getElementById("show").addEventListener("click", ()=>{alert(randomNum)})
 
 function boardPrintText(){
   board.style.color = "#000000"

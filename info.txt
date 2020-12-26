@@ -1,1 +1,0 @@
-this is just to try how to update a project on github using git

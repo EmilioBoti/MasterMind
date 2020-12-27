@@ -15,14 +15,8 @@
   font-weight: normal;
   font-family: 'Courier New', Courier, monospace;
 }
-#logo{
-  width: 20%;
-  margin-top: 1.5em;
-  border: 1px solid #e9ecec;
-  border-radius: 0.5em;
-  transition: 1.8s all;
-}
 .header p{
+  margin-top: 3em;
   padding: 0em 1.5em;
 }
 .container{

@@ -1,17 +1,15 @@
 const container = document.getElementById("container")
 const board = document.getElementById("board")
-let values = document.getElementById("number")
+const values = document.getElementById("number")
 
   let randomNum = []
-  let size = 3
+  let size = 5
   let index = 0
   
   //make the 5 random numbers
   for(let i =0; i < 5; i++){
     randomNum.push(Math.floor((Math.random() * size) +1))
   }
-  //show all numbers
-//const show = document.getElementById("show").addEventListener("click", ()=>{alert(randomNum)})
 
 function boardPrintText(){
   board.style.color = "#000000"
@@ -61,7 +59,7 @@ function checkValues(){
           boxes[i].innerHTML = elem
         }
       }else{
-         alert(`You cannot put numbers less or greater than ${size}`) 
+         alert(`You cannot put numbers less than 1 and greater than ${size}`) 
          i = 5
       }
     }

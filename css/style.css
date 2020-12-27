@@ -15,8 +15,15 @@
   font-weight: normal;
   font-family: 'Courier New', Courier, monospace;
 }
+#logo{
+  width: 20%;
+  margin-top: 1.5em;
+  border: 1px solid #e9ecec;
+  border-radius: 0.5em;
+  transition: 1.8s all;
+}
 .header p{
-  padding: 1.5em;
+  padding: 0em 1.5em;
 }
 .container{
   height: 3.2em;
@@ -65,7 +72,7 @@ input[type = "button"]{
 input[type = "button"]:hover{
   transition: 0.4s ease-in all;
   background-color: #D7DBDD;
-  color: #7B241C;
+  color: #D4AC0D;
 }
 
 @media screen and (max-width: 360px), (max-width: 414px) {
@@ -76,27 +83,17 @@ input[type = "button"]:hover{
 
   .container{
     height: 2.2em;
-    display: grid;
-    grid-template-columns:auto auto auto auto auto;
-    justify-content: center;
   }
 
   input[type = "number"]{
     width: 200px;
-    margin: auto;
     padding: 5px;
-    text-align: center;
     font-size: 15px;
-    border: 1px solid #5D6D7E;
-    border-radius: 20px;
   }
   input[type = "button"]{
     padding: 1px 10px;
     margin:  0px 3px;
     font-size: 14px;
-    border: 1px solid #5D6D7E;
-    border-radius: 20px;
-    cursor: pointer;
   }
 
 }

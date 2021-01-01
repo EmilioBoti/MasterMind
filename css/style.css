@@ -1,7 +1,7 @@
 .main-container{
   width: 30%;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 30px;
   display: grid;
   grid-template-rows: auto auto auto;
   border: 1px solid #e9ecec;
@@ -75,7 +75,7 @@ input[type = "button"]:hover{
   color: #D4AC0D;
 }
 
-@media screen and (max-width: 360px), (max-width: 414px) {
+@media screen and (min-width: 320px),(min-width: 360px), (min-width: 414px) {
 
   .main-container{
     min-width: 90%;
@@ -97,3 +97,52 @@ input[type = "button"]:hover{
   }
 
 }
+@media screen and (min-width: 768px){
+
+  .main-container{
+    min-width: 80%;
+  }
+  .main-container p{
+    font-size: 25px;
+  }
+  .container{
+    font-size: 22px;
+    height: 2.2em;
+  }
+  input[type = "number"]{
+    width: 300px;
+    padding: 8px;
+    font-size: 22px;
+  }
+  input[type = "button"]{
+    padding: 1px 10px;
+    margin:  0px 3px;
+    font-size: 20px;
+  }
+
+}
+@media screen and (min-width: 1024px){
+
+  .main-container{
+    min-width: 50%;
+  }
+  .main-container p{
+    font-size: 27px;
+  }
+  .container{
+    font-size: 15px;
+    height: 2.2em;
+  }
+  input[type = "number"]{
+    width: 300px;
+    padding: 5px;
+    font-size: 20px;
+  }
+  input[type = "button"]{
+    padding: 1px 10px;
+    margin:  0px 3px;
+    font-size: 15px;
+  }
+
+}
+

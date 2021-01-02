@@ -1,9 +1,10 @@
 .main-container{
   width: 30%;
   margin: auto;
-  margin-top: 30px;
+  /*margin-top: 30px;*/
   display: grid;
   grid-template-rows: auto auto auto;
+  align-content: center;
   border: 1px solid #e9ecec;
   border-radius: 1em;
   background-color: #F7F9F9;
